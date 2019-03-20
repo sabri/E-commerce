@@ -1,0 +1,44 @@
+.slide-container {
+    width: 70%;
+    margin: auto; }
+  
+  
+  .each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 300px;
+  }
+  
+  .each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef00;
+    text-align: right;
+  }
+  
+  .each-fade {
+    display: flex;
+    width: 100%;
+  }
+  
+  .each-fade .image-container {
+    width: 75%;
+    overflow: hidden;
+  }
+  
+  .each-fade .image-container img {
+      height: 300px;
+    width: 100%;
+  }
+  
+  .each-fade h2 {
+    width: 40%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0;
+    background: yellow;
+
+  }
