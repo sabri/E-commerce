@@ -42,7 +42,8 @@ return (
         </ButtonContainer></Link>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
        <Link to="/Cart"> <ButtonContainer cart variant="dark" disabled={incart ? true : false} 
-        onClick={()=>{value.hanfleadd(id)}}>
+       onClick={()=>{value.handleadd(id);
+                          value.modalopen(id);}}>
           {incart ? "In my cart" : "Add to cart"}
         </ButtonContainer>
         </Link>

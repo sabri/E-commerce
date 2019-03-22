@@ -16,7 +16,9 @@ export default class ProductCard extends Component {
             <Link to="/Details">
               <img src={img} alt={nom} className="card-img-top" width="300px" height="200px" />
               </Link>
-            <button className="cart-btn" disabled={incart ? true : false} onClick={() => { console.log('add') }}>
+            <button className="cart-btn" disabled={incart ? true : false}
+             onClick={()=>{value.handleadd(id);
+                          value.modalopen(id);}}>
               {incart ? (<p className="text-capitalize mb-0" disabled>incart</p>) : (<MdAddShoppingCart />)}
             </button>
            
@@ -24,7 +26,7 @@ export default class ProductCard extends Component {
        )}
           </Consumer>
           <div className="card-footer d-flex justify-content-between">
-            <p className="align-self-center mb-0" style={{ color: "black", fontSize: "bold" }}>{nom} &nbsp;- &nbsp;{color}</p>
+            <p className="align-self-center mb-0" style={{ color: "black", fontSize: "bold" }}>{nom} &nbsp;- &nbsp;<b>{color}</b></p>
             <h5 className="text-blue font-italic mb-0" style={{ color: "red" }}>
               <span className="mr-1">$</span>
               {price}
