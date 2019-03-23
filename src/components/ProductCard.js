@@ -101,7 +101,7 @@ const Cardwrapper = styled.div`
   transform: translate(0,0);
 }
 .cart-btn:hover{
-  color:orange;
+  color:rgb(177, 50, 128);
   cursor:pointer;
 }
 

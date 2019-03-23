@@ -7,7 +7,10 @@ export class Provider extends Component {
     products: [],
     details: productl,
     cart: [],
+    searchQuery: "",
     modalOpen: false,
+    slidepr:productl,
+    slide:false,
     modalproduct: productl,
     cartsubtitle: 0,
     tax: 0,
@@ -69,6 +72,18 @@ export class Provider extends Component {
   modelclose = () => {
     this.setState(() => {
       return { modalOpen: false };
+    })
+  }
+  slideopen = id => {
+    const product = this.getItem(id);
+    this.setState(() => {
+      return { slidepr: product, slide: true };
+    })
+
+  }
+  slideclose = () => {
+    this.setState(() => {
+      return { slide: false };
     })
   }
   increment = (id) => { 
@@ -142,6 +157,8 @@ export class Provider extends Component {
         handleadd: this.handleadd,
         modalopen: this.modalopen,
         modelclose: this.modelclose,
+        slideclose:this.slideclose,
+        slideopen:this.slideopen
       }}>
         {this.props.children}
       </Context.Provider>

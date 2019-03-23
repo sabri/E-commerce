@@ -3,7 +3,8 @@ export const data = [
 {   id:1,
     nom: 'Samsung_galaxy',
     color:"black",
-    img :"s1.jpg",
+    img :"s.jpg",
+    img1 :"s1.jpg",
     company: "samsung",
     description:"samsung Galaxy A7 (2018) is expected to launch on September 25, 2018. Samsung has never failed to surprise mobile lovers with its incredible range of smartphone. Adding to its new launch, the brand is all set to launch the much-awaited Samsung Galaxy A7 2018. As per the rumours, this is an elegant looking smartphone where a dark metal frame is secured between the two glass plates. It boasts curvy edges in round shaped that adds further to the look and feel of the device. ",
     price:1400 ,
@@ -14,7 +15,8 @@ export const data = [
 },
 {id:2,
     nom: 'Samsung_galaxy',
-    img :"s2.jpg",
+    img :"p.jpg",
+    img1 :"p1.jpg",
     color:"black",
     company: "samsung",
     description:"samsung Galaxy A7 (2018) is expected to launch on September 25, 2018. Samsung has never failed to surprise mobile lovers with its incredible range of smartphone. Adding to its new launch, the brand is all set to launch the much-awaited Samsung Galaxy A7 2018. As per the rumours, this is an elegant looking smartphone where a dark metal frame is secured between the two glass plates. It boasts curvy edges in round shaped that adds further to the look and feel of the device. ",
@@ -26,9 +28,10 @@ export const data = [
 },
 {id:3,
     nom: 'Samsung_galaxy',
-    img :"s3.jpg",
+    img :"al.jpg",
+    img1 :"al1.jpg",
     color:"black",
-    company: "samsung",
+    company: "Alcatel",
     description:"samsung Galaxy A7 (2018) is expected to launch on September 25, 2018. Samsung has never failed to surprise mobile lovers with its incredible range of smartphone. Adding to its new launch, the brand is all set to launch the much-awaited Samsung Galaxy A7 2018. As per the rumours, this is an elegant looking smartphone where a dark metal frame is secured between the two glass plates. It boasts curvy edges in round shaped that adds further to the look and feel of the device. ",
     price:700 ,
     incart:false,
@@ -38,7 +41,8 @@ export const data = [
 },
 {id:4,
     nom: 'Samsung_galaxy',
-    img :"s4.jpg",
+    img :"g.jpg",
+    img1 :"g1.jpg",
     color:"black",
     company: "samsung",
     description:"samsung Galaxy A7 (2018) is expected to launch on September 25, 2018. Samsung has never failed to surprise mobile lovers with its incredible range of smartphone. Adding to its new launch, the brand is all set to launch the much-awaited Samsung Galaxy A7 2018. As per the rumours, this is an elegant looking smartphone where a dark metal frame is secured between the two glass plates. It boasts curvy edges in round shaped that adds further to the look and feel of the device. ",
@@ -49,7 +53,9 @@ export const data = [
 },
 {id:5,
     nom: 'Samsung_galaxy',
-    img :"s1.jpg",
+    img :"b.jpg",
+    img1 :"b1.jpg",
+
     color:"black",
     company: "samsung",
     description:"samsung Galaxy A7 (2018) is expected to launch on September 25, 2018. Samsung has never failed to surprise mobile lovers with its incredible range of smartphone. Adding to its new launch, the brand is all set to launch the much-awaited Samsung Galaxy A7 2018. As per the rumours, this is an elegant looking smartphone where a dark metal frame is secured between the two glass plates. It boasts curvy edges in round shaped that adds further to the look and feel of the device. ",
@@ -60,7 +66,9 @@ export const data = [
 
 },{id:6,
     nom: 'Samsung_galaxy',
-    img :"s5.jpg",
+    img :"iph.jpg",
+    img1 :"iph1.jpg",
+
     color:"black",
     company: "samsung",
     description:"samsung Galaxy A7 (2018) is expected to launch on September 25, 2018. Samsung has never failed to surprise mobile lovers with its incredible range of smartphone. Adding to its new launch, the brand is all set to launch the much-awaited Samsung Galaxy A7 2018. As per the rumours, this is an elegant looking smartphone where a dark metal frame is secured between the two glass plates. It boasts curvy edges in round shaped that adds further to the look and feel of the device. ",
@@ -71,7 +79,9 @@ export const data = [
 
 },{id:7,
     nom: 'Samsung_galaxy',
-    img :"s6.jpg",
+    img :"lg.jpg",
+    img1 :"lg1.jpg",
+
     color:"black",
     company: "samsung",
     description:"samsung Galaxy A7 (2018) is expected to launch on September 25, 2018. Samsung has never failed to surprise mobile lovers with its incredible range of smartphone. Adding to its new launch, the brand is all set to launch the much-awaited Samsung Galaxy A7 2018. As per the rumours, this is an elegant looking smartphone where a dark metal frame is secured between the two glass plates. It boasts curvy edges in round shaped that adds further to the look and feel of the device. ",
@@ -83,7 +93,9 @@ export const data = [
 },{
     id:8,
     nom: 'Samsung_galaxy',
-    img :"s7.jpg",
+    img :"mt.jpg",
+    img1 :"mt1.jpg",
+
     company: "samsung",
     description:"samsung Galaxy A7 (2018) is expected to launch on September 25, 2018. Samsung has never failed to surprise mobile lovers with its incredible range of smartphone. Adding to its new launch, the brand is all set to launch the much-awaited Samsung Galaxy A7 2018. As per the rumours, this is an elegant looking smartphone where a dark metal frame is secured between the two glass plates. It boasts curvy edges in round shaped that adds further to the look and feel of the device. ",
     price:1400 ,
@@ -94,7 +106,9 @@ export const data = [
 },{
     id:9,
     nom: 'Samsung_galaxy',
-    img :"s6.jpg",
+    img :"se.jpg",
+    img1 :"se1.jpg",
+
     company: "samsung",
     color:"black",
     description:"samsung Galaxy A7 (2018) is expected to launch on September 25, 2018. Samsung has never failed to surprise mobile lovers with its incredible range of smartphone. Adding to its new launch, the brand is all set to launch the much-awaited Samsung Galaxy A7 2018. As per the rumours, this is an elegant looking smartphone where a dark metal frame is secured between the two glass plates. It boasts curvy edges in round shaped that adds further to the look and feel of the device. ",
@@ -105,7 +119,9 @@ export const data = [
 
 },{id:10,
     nom: 'Samsung_galaxy',
-    img :"s7.jpg",
+    img :"x.jpg",
+    img1 :"x1.jpg",
+
     company: "samsung",
     color:"black",
     description:"samsung Galaxy A7 (2018) is expected to launch on September 25, 2018. Samsung has never failed to surprise mobile lovers with its incredible range of smartphone. Adding to its new launch, the brand is all set to launch the much-awaited Samsung Galaxy A7 2018. As per the rumours, this is an elegant looking smartphone where a dark metal frame is secured between the two glass plates. It boasts curvy edges in round shaped that adds further to the look and feel of the device. ",
@@ -116,7 +132,9 @@ export const data = [
 
 },{id:11,
     nom: 'Samsung_galaxy',
-    img :"s7.jpg",
+    img :"ip.jpg",
+    img1 :"ip1.jpg",
+
     company: "samsung",
     color:"black",
     description:"samsung Galaxy A7 (2018) is expected to launch on September 25, 2018. Samsung has never failed to surprise mobile lovers with its incredible range of smartphone. Adding to its new launch, the brand is all set to launch the much-awaited Samsung Galaxy A7 2018. As per the rumours, this is an elegant looking smartphone where a dark metal frame is secured between the two glass plates. It boasts curvy edges in round shaped that adds further to the look and feel of the device. ",
@@ -127,7 +145,9 @@ export const data = [
 
 },{id:12,
     nom: 'Samsung_galaxy',
-    img :"s7.jpg",
+    img :"m.jpg",
+    img1 :"m1.jpg",
+
     company: "samsung",
     color:"black",
     description:"samsung Galaxy A7 (2018) is expected to launch on September 25, 2018. Samsung has never failed to surprise mobile lovers with its incredible range of smartphone. Adding to its new launch, the brand is all set to launch the much-awaited Samsung Galaxy A7 2018. As per the rumours, this is an elegant looking smartphone where a dark metal frame is secured between the two glass plates. It boasts curvy edges in round shaped that adds further to the look and feel of the device. ",

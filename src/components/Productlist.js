@@ -12,7 +12,6 @@ export default class Productlist extends Component {
       <Container style={{ marginTop: "30px"}}>
 
         <Slideshow />
- <h2 style={{textAlign:"center", margin:"auto",padding:"40px"}}> Our Product </h2>
         <Row style={{textAlign: "center", margin: "auto " }}>
          <Consumer>
            {value => {

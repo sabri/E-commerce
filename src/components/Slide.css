@@ -1,5 +1,5 @@
 .slide-container {
-    width: 70%;
+    width: 100%;
     margin: auto; }
   
   
@@ -24,21 +24,12 @@
   }
   
   .each-fade .image-container {
-    width: 75%;
+    width: 100%;
     overflow: hidden;
   }
   
   .each-fade .image-container img {
-      height: 300px;
+      height: 400px;
     width: 100%;
   }
   
-  .each-fade h2 {
-    width: 40%;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    margin: 0;
-    background: yellow;
-
-  }

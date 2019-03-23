@@ -1,23 +1,35 @@
 import React from 'react';
-import {Navbar,Nav,Button} from 'react-bootstrap'
-import { Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import '../App.css'
 import Sticky from 'react-sticky-el';
-
+import {FaShoppingBasket,FaSearch,FaShoppingCart,FaUser} from 'react-icons/fa'
 const IsHeader = () => {
     return (
-        <Sticky style={{zIndex:"22"}}>
-        <div>
-        <Navbar bg="dark"  variant="dark">
-   <Link to ="/"><Navbar.Brand><img src="logo.png" width ="40px" height="30px" alt="music" style={{padding:"none",margin:"none"}}/>&nbsp;&nbsp;Mobile Shop</Navbar.Brand>
-   </Link> 
-    <Nav className="mr-auto">
-     
-    </Nav>
-   <Link to="/Cart"> <Button variant="dark"><img src ="cart.png" alt ="my cart"width ="30px" height="30px"/> Mycart </Button></Link>
-  </Navbar>
-        </div>
-        </Sticky>
-    );
-}
+        <Sticky style={{ zIndex: "22" }}>
+            <div className="navbar">
+                <Link to="/">
+                    <div className="img">
+                        <img src="logo.png" alt="Avatar" className="avatar" />
+                       <span style={{marginTop:"20px"}}><h5>Mobile Online</h5></span> 
+                    </div>
+                </Link>
+                <div className="search-container" style={{marginBottom:"20px"}}>
+                    <form>
+                        <input type="text" placeholder="Search.." name="search"/>
+                            <button type="submit" onChange={console.log("sabri")}><FaSearch/></button>
+                     </form>
+                 </div>
+                    <div>
+                    <Link to="/Cart"> <span><FaShoppingBasket/>&nbsp;My cart </span></Link>
 
-export default IsHeader;
+                        <Link to="/Cart"> <span><FaUser/>&nbsp;Log In</span></Link>
+                        <Link to="/"> <span><FaShoppingCart/>&nbsp;Product </span></Link>
+
+                    </div>
+
+                </div>
+        </Sticky>
+            );
+        }
+        
+        export default IsHeader;

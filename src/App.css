@@ -1,0 +1,98 @@
+*{box-sizing: border-box;
+ outline: none;}
+body{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: "Times New Roman", Times, serif;
+  
+  }
+  /*--------------------------header------------------------------------------------*/
+  .img
+  {
+    display: inline;
+    margin: 5px;
+    color: white;
+  }
+ 
+  
+  
+  .navbar {
+      
+    height: 55px;
+    box-shadow: 0 4px 8px 0 rgba(161, 146, 146, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: black;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  margin-bottom:40px; 
+  }
+  
+  
+  /* Links inside the navbar */
+  .navbar span {
+    float: right;
+    display: block;
+    color: #fff;
+    margin-bottom:20px;
+  position: inherit;
+    text-align: center;
+   padding-left: 16px;
+   padding-right: 16px;
+    text-decoration: none;
+  }
+ .navbar span.active {
+    background-color: rgb(177, 50, 128);
+    color: white;
+}
+.navbar.search-container {
+    float: right;
+  }
+ .navbar input[type=text] {
+    padding: 6px;
+    width: 400px;
+    margin-top:none;
+    font-size: 17px;
+    background: rgb(26, 25, 25);
+    color:white;
+    border: none;
+  }
+ .navbar .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: none;
+    margin-right: 16px;
+    background: rgb(26, 25, 25);
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+
+  }
+  
+ 
+
+  
+@media screen and (max-width: 600px) {
+    .navbar .search-container {
+      float: none;
+    }}
+  .navbar.search-container button:hover {
+    background:black;
+    color:rgb(177, 50, 128);
+  }
+  /* Change background on mouse-over */
+  .navbar span:hover {
+    color:rgb(177, 50, 128);
+  text-decoration:bold;
+  
+  }
+  .avatar {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid rgb(177, 50, 128);
+    float: left;
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
