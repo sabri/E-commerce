@@ -6,6 +6,7 @@ import List from './List';
 import Total from './Total';
 
 export default class Cart extends Component {
+
   render() {
     return (
       <section>
@@ -15,7 +16,7 @@ export default class Cart extends Component {
             if (cart.length > 0) {
               return (
                 <Fragment>
-                  <h1 style={{ textAlign: "center", color: "rgb(177, 50, 128)", padding: "40px" }}><b>My Cart List </b> </h1>
+                  <h1 style={{ textAlign: "center", color: "rgb(177, 50, 128)", paddingBottom: "20px" }}><b>My Cart List </b> </h1>
                   <Cartcols />
                   <List value={value}/>
                   <Total value={value}/>

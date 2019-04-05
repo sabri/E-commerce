@@ -7,7 +7,7 @@ const List = ({value}) => {
         <div className="container-fluid">
             {cart.map(item=>{
 
-                return (<div style={{margin:"20px"}} > <Item key ={item.id} item={item} value={value}/></div>)
+                return (<div style={{margin:"20px"}} > <Item  key ={item.id} item={item} value={value}/></div>)
 
             })};
         </div>

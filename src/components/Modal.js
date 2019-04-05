@@ -34,9 +34,9 @@ export default class Modal extends Component {
                                                  Product List
                                                 </ButtonContainer>
                                                 </Link> 
-                                                <Link to="/Cart">
+                                                <Link to="/Details">
                                                 <ButtonContainer cart onClick={()=> modelclose()}>
-                                                Cart list
+                                                Details
                                                 </ButtonContainer>
                                                 </Link>                                              </div>
                                         </Row>

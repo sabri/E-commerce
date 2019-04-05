@@ -25,15 +25,15 @@ export default class SlideModal extends Component {
                                             <button style={{position:"absolute", top:"O",float:"right",zIndex:"5OO",right:"0",background:"rgba(0, 0, 0, 0.3)",border:"none"}} onClick={() => { slideclose() }}><FaRegTimesCircle/></button>
 
                                                 <Fade {...fadeProperties}>
-                                                    <div className="each-fade">
-                                                        <div className="image-container">
-                                                            <img src={img} alt="first" className="img-fluid" />
+                                                    <div className="each-fade1">
+                                                        <div className="image-container1">
+                                                            <img src={img} alt="first" className="img-fluid" width="1700px" height="1700px" />
                                                         </div>
 
                                                     </div>
-                                                    <div className="each-fade">
-                                                        <div className="image-container">
-                                                            <img src={img1} alt="first" className="img-fluid" />
+                                                    <div className="each-fade1">
+                                                        <div className="image-container1">
+                                                            <img src={img1} alt="first" className="img-fluid" width="1700px" height="1700px" />
                                                         </div>
                                                     </div>
                              </Fade>
